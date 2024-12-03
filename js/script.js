@@ -17,7 +17,7 @@
 
 //Lecture 2
 
-const message = "JavaScript is awesome!"
+// const message = "JavaScript is awesome!"
 
 //console.log(message);
 
@@ -34,7 +34,7 @@ const message = "JavaScript is awesome!"
 // const userName = prompt("Please enter your name");
 // console.log(userName);
 
-let value;
+// let value;
 
 // ---String---//
 
@@ -77,5 +77,119 @@ let value;
 // console.log("the sum is "+d);
 // alert(d);
 
-let val = "0";
-console.log(val == 0);
+// let val = "0";
+// console.log(val == 0);
+
+//-----if/else
+
+//--- одинарні
+
+// if(5+5===10){
+//     console.log("Hello");
+// }
+
+// if (5+5===25){
+//     console.log("1");
+// } else {
+//     console.log("2");
+// }
+
+
+// тернарний оператор
+
+// (2+2===4)? console.log("1") : console.log("2");
+
+// if (5+5===7){
+//     console.log("5+5===7");
+// }else if (2+2===4){
+//     console.log("2+2===6");
+// } else{
+//     console.log("no");
+// }
+
+
+// const leng = prompt("Please enter your language");
+
+// if (leng === "ua"){
+//     console.log("Понеділок");
+//     alert("Понеділок");
+// } else if (leng === "en"){
+//     console.log("Monday");
+//     alert("Monday");
+// }else{
+//     console.log("Reset");
+//     alert("Reset");
+// }
+
+//---swich/cade
+
+// let num = 10;
+// switch(num){
+//     case 0:
+//         console.log(0);
+//         break;
+    
+//     case 5:
+//         console.log(5);
+//         break;
+
+//     case 10:
+//         console.log(10);
+//         break;
+// }
+
+
+// let cost = null;
+// const sub = "premium";
+
+// switch(sub){
+//     case "free":
+//         cost = 0;
+//         break;
+    
+//     case "pro":
+//         cost = 100;
+//         break;
+
+//     case "premium":
+//         cost = 500;
+//         break;
+
+//     default:
+//         console.log("Invalid sub")
+// }
+
+// console.log(cost)
+
+//---- Exercises
+
+
+// const value = prompt("Введіть назву товару").toLowerCase();
+// let cost;
+
+// switch (value) {
+//     case "яблуко":
+//         cost = 10;
+//         alert(`${value} коштує ${cost} грн`);
+//         break;
+//     case "вишня":
+//         cost = 50;
+//         alert(`${value} коштує ${cost} грн`);
+//         break;
+//     case "груша":
+//         cost = 25;
+//         alert(`${value} коштує ${cost} грн`);
+//         break;    
+//     case "кавун":
+//         cost = 70;
+//         alert(`${value} коштує ${cost} грн`);
+//         break;
+//     case "диня":
+//         cost = 80;
+//         alert(`${value} коштує ${cost} грн`);
+//         break;
+        
+//     default:
+//         alert(`Товару ${value} немає в наявності`);
+
+// }
