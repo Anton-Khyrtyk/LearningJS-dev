@@ -117,3 +117,71 @@
 // // console.log(numberRef.value);+
 
 // buttonRef.addEventListener("click", () => addNumber(numberRef.value));
+
+// -------------------------------------------------------------------
+// ---Home Task
+// -------------------------------------------------------------------
+
+// Перепишіть функцію, використовуючи '?' або '||'
+
+// function checkAge(age) {
+//      if (age > 18) {
+//          return true;
+//     } else {
+//         return confirm('Батьки дозволили?');
+//     }
+// }
+
+// function checkAge(age) {
+//   return age > 18 || confirm("Батьки дозволили?");
+// }
+
+// console.log(checkAge(25));
+
+// console.log(age > 18 ? true : confirm("Батьки дозволили?"));
+
+// -------------------------------------------------------------------
+
+// Напишіть функцію min(a, b), яка повертає менше з двох чисел a та b.
+
+// function checking() {
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+
+// let a = Number(+prompt("Enter number a"));
+// let b = Number(+prompt("Enter number b"));
+
+// alert(checking());
+
+// console.log(a < b ? a : b);
+
+// -------------------------------------------------------------------
+
+// Перепишіть з використанням стрілкових функцій
+// Замініть Функціональні Вирази на стрілкові функції у коді нижче:
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+
+// ask("Ви згодні?", function () {alert("Ви погодились.");}, function () {alert("Ви скасували виконання.");});
+
+// const ask = (question) => {
+//   if (confirm(question)) yes();
+//   else no();
+// };
+
+// const yes = () => {
+//   alert("Ви погодились.");
+// };
+
+// const no = () => {
+//   alert("Ви скасували виконання.");
+// };
+
+// ask("Ви згодні?");
