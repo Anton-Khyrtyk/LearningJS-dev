@@ -101,6 +101,19 @@
 
 // test("hello");
 
+// End of first part Time 39:48
+
 // console.log(document);
 
-// End of first part Time 39:48
+// const addNumber = (number) => {
+//   let summ = Number(number) + 10;
+//   return console.log(summ);
+// };
+
+// const numberRef = document.querySelector('input[name="number"]');
+
+// const buttonRef = document.querySelector("button");
+
+// // console.log(numberRef.value);+
+
+// buttonRef.addEventListener("click", () => addNumber(numberRef.value));
