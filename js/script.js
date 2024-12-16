@@ -77,37 +77,37 @@
 // --- get & set
 // -------------
 
-class User {
-  constructor(props) {
-    this.name = props.name;
-  }
+// class User {
+//   constructor(props) {
+//     this.name = props.name;
+//   }
 
-  firstName = "";
-  lastName = "";
-  age = "";
-  city = "";
+//   firstName = "";
+//   lastName = "";
+//   age = "";
+//   city = "";
 
-  set name(newName) {
-    const nameRow = newName.split(" ");
-    this.firstName = nameRow[0];
-    this.lastName = nameRow[1];
-  }
+//   set name(newName) {
+//     const nameRow = newName.split(" ");
+//     this.firstName = nameRow[0];
+//     this.lastName = nameRow[1];
+//   }
 
-  get name() {
-    return ` First name : $(this.firstName) last name : $(this.lastName)`;
-  }
-}
+//   get name() {
+//     return ` First name : $(this.firstName) last name : $(this.lastName)`;
+//   }
+// }
 
-const Kris = new User({
-  name: "Kristina Malitowska",
-});
+// const Kris = new User({
+//   name: "Kristina Malitowska",
+// });
 
-const Dasha = new User({
-  name: "Dasha Happy",
-});
+// const Dasha = new User({
+//   name: "Dasha Happy",
+// });
 
-//console.log(Kris);
-console.log(Dasha);
+// //console.log(Kris);
+// console.log(Dasha);
 
 //-------------
 //--- Прототипи
@@ -192,35 +192,35 @@ console.log(Dasha);
 // get який виводитиме данні про абонента створити три різних юзери
 // вивести данні
 
-class Abonent {
-  constructor(data) {
-    this.client = data.client;
-  }
+// class Abonent {
+//   constructor(data) {
+//     this.client = data.client;
+//   }
 
-  mainName = "";
-  mainNumber = "";
+//   mainName = "";
+//   mainNumber = "";
 
-  set client(info) {
-    const nameRow = info.split(" ");
-    this.mainName = nameRow[0];
-    this.mainNumber = nameRow[1];
-  }
+//   set client(info) {
+//     const nameRow = info.split(" ");
+//     this.mainName = nameRow[0];
+//     this.mainNumber = nameRow[1];
+//   }
 
-  get client() {
-    return ` Name is : $(this.mainName) Number is : $(this.mainNumber)`;
-  }
-}
+//   get client() {
+//     return ` Name is : $(this.mainName) Number is : $(this.mainNumber)`;
+//   }
+// }
 
-const Karl = new Abonent({
-  client: "Karl +380976548462",
-});
+// const Karl = new Abonent({
+//   client: "Karl +380976548462",
+// });
 
-const Den = new Abonent({
-  client: "Den +380936524512",
-});
+// const Den = new Abonent({
+//   client: "Den +380936524512",
+// });
 
-const Bill = new Abonent({
-  client: "Bill +380669864527",
-});
+// const Bill = new Abonent({
+//   client: "Bill +380669864527",
+// });
 
-console.log(Den);
+// console.log(Den);
